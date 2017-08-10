@@ -1,0 +1,8 @@
+<launch>
+
+    <node pkg="pocketsphinx" name="voice_play" type="voice_player_advance.py">
+    </node>
+    <node pkg="pocketsphinx" name="sim_input" type="sim_publish.py">
+    </node>
+
+</launch>
